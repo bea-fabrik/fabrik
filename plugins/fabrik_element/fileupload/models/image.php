@@ -84,7 +84,7 @@ class ImageRenderModel
 
 		if ($this->inTableView)
 		{
-			if (isset($thisRow->{$title_name}))
+            	if (isset($thisRow->{$title_name}))
 			{
 				$title = $thisRow->$title_name;
 			}
